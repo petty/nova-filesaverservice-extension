@@ -5,7 +5,7 @@
     "description": "File Saver Service is meant to help automate post-save functionality",
     "repository": "https://github.com/petty/nova-filesaverservice-extension",
     "bugs": "https://github.com/petty/nova-filesaverservice-extension/issues",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "categories": ["formatters"],
     "license": "MIT",
     "main": "main.js",
