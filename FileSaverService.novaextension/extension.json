@@ -1,0 +1,14 @@
+{
+    "identifier": "com.paulpetty.filesaverservice",
+    "name": "File Saver Service",
+    "organization": "Petty",
+    "description": "File Saver Service is meant to help automate post-save functionality",
+    "repository": "https://github.com/petty/nova-filesaverservice-extension",
+    "version": "1.0.0",
+    "categories": ["formatters"],
+    "license": "MIT",
+    "main": "main.js",
+    "entitlements": {
+        "process": true
+    }
+}
