@@ -1,8 +1,17 @@
+
 class FileSaverService {
   constructor() {}
 
   handleSave(currentFile) {
-    var process = new Process("/usr/local/bin/novascripts", {
+
+    const NOVASCRIPTS = '/usr/local/bin/novascripts'
+
+    if (nova.fs.stat(NOVASCRIPTS) === undefined || nova.fs.stat(NOVASCRIPTS) === null) {
+      console.log(`No ${NOVASCRIPTS} file exists.`)
+      return
+    }
+
+    var process = new Process(NOVASCRIPTS, {
       args: [currentFile]
     })
 
